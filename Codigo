@@ -6,16 +6,19 @@ if (x<=1) {
 
 }
 else {
-    for (int = 1; i < x * 2; ++i
-    if (x % i != 0) {
-        y = false
+    for (int i = 2; i <= x / 2; ++i) {
+    if (x % i == 0) {
+        y = false;
         break;
 
        }
     }
 }
-if (y ==true) {
-    printf("El numero %d es primo", x);
+if (y == true) {
+    printf("El numero %d es primo\n", x);
 }
 else {
-  printf("El numero %d no es primo", x);
+  printf("El numero %d no es primo\n", x);
+
+   }
+}
