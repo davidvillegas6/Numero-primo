@@ -1,0 +1,21 @@
+int main() {
+int x = 17;
+bool y = true;
+if (x<=1) {
+  y = false;
+
+}
+else {
+    for (int = 1; i < x * 2; ++i
+    if (x % i != 0) {
+        y = false
+        break;
+
+       }
+    }
+}
+if (y ==true) {
+    printf("El numero %d es primo", x);
+}
+else {
+  printf("El numero %d no es primo", x);
